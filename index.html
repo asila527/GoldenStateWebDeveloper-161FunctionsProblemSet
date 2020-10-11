@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions Problem Set</title>
+    <script src="FunctionsProblemSet.js"></script>
+</head>
+<body>
+    <h1>Functions Problem Set</h1>
+    <h2>JS code for reference only</h2>
+    <p>
+function isEven(num) {
+    if (num % 2 === 0) {
+        return 'true';
+    } else {
+        return 'false';
+    }
+}
+
+    </p>
+    <p>
+        function factorial(num) {
+            if (num === 0) {
+                return 1;
+            } else {
+                for (let i = num - 1; i >= 1; i--) {
+                    num = num * i;
+                }
+                return num;
+            }
+        }
+    </p>
+    <p>
+        function kebabToSnake(str) {
+            return str.replace(/[-_]/g, "_"); 
+            }
+    </p>
+</body>
+</html>
